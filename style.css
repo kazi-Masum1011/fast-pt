@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 50px 200px;
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.span-logo {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.header-btn {
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    height: 64px;
+    padding: 18px 35px;
+}
+
+.header-profile {
+    position: bottom right;
+}
+
+.benner {
+    display: flex;
+    align-items: center;
+}
+
+.benner-sub-titel {
+    color: #474747;
+    font-size: 44px;
+    margin-bottom: 5px;
+}
+
+.titel {
+    font-size: 77px;
+    margin-bottom: 20px;
+}
+
+.benner-text {
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.benner-btn {
+    height: 64px;
+    width: 200px;
+    font-size: 20px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background-color: #FFFFFF;
+    margin: 30px;
+}
+
+.about-us {
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 50px 200px
+}
+
+.about-projishon {
+    text-align: center;
+    margin: 131px 155px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 155px;
+}
+
+.about-titel {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.about-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #474747;
+}
